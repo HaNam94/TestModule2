@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class MedicalRecordManager {
-    private static final String FILE_PATH = "data/medical_records.csv";
+    private static final String FILE_PATH = "src/data/medical_records.csv";
     private static List<MedicalRecord> medicalRecords = new ArrayList<>();
 
     public static void main(String[] args) {
